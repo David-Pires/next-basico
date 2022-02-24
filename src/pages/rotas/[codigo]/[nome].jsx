@@ -7,7 +7,10 @@ export default function CodigoENome() {
   console.log(router)
   return (
     <div>
-      <h1>Rotas | {codigo} | {nome}</h1>
+      <h1>Rotas / {codigo} / {nome}</h1>
+      <LINK href="/rotas" passHref>
+        <button>Voltar</button>
+      </LINK>
     </div>
   )
 }

@@ -7,8 +7,12 @@ export default function Buscar() {
   console.log(router)
   return (
     <div>
-      <h1>Rotas | {codigo} | Buscar!!</h1>
-      
+      <h1>Rotas / {codigo} / Buscar!!</h1>
+      <LINK href="/rotas">
+        <a href="">
+         <button >Voltar</button>
+        </a>
+      <LINK/>
     </div>
   )
 }
